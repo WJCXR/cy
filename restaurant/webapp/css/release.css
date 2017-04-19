@@ -1,0 +1,30 @@
+.scount{
+    margin-left: 30px;
+}
+#sublits{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+#quert{
+    margin-top: 30px;
+}
+.tyTex{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    margin: 15px 0 15px 0;
+}
+.tyTex i{
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: 3px;
+}
+.mstDow{
+    position: absolute;
+    left: 300px;
+    top: 9px;
+    width: 10px;
+    height: 10px;
+    background: url("../img/bitian.png") no-repeat;
+}

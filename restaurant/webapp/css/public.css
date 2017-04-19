@@ -1,0 +1,213 @@
+@charset "utf-8";
+/*全局样式*/
+*{padding:0px;margin:0px;}
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:0px;}
+img,input,select{border:none;outline: none;}
+body{;font-size:12px; font-family: "微软雅黑"}
+ul,ol,li{list-style-type:none;}
+th,td,input{font-size:12px;}
+h3{font-size:14px;}
+button{border:none;cursor:pointer;font-size:12px;background-color:transparent; outline: none;}
+.clear{clear:both;font-size:1px;height:0;visibility:hidden;line-height:0;}
+a:link,a:visited{text-decoration:none;}
+a{ list-style: none; text-decoration:none;}
+i,em{font-style: normal;}
+.clearfix{zoom:1;}
+.clearfix:after{content: '';display: block; clear: both;}
+.container{width:1200px; margin:0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+/*公共的头部和左边的样式*/
+.box{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.headrs{
+    width: 1200px;
+    height: 100px;
+    background:#a13041;
+    border-bottom: 2px solid #5a121d;
+    position: relative;
+}
+.headrs h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-style: normal;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 30px;
+
+}
+.headrs .users{
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.users span{
+    font-size: 16px;
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+}
+.users span:before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background: url("../img/touxiang.png") no-repeat;
+}
+.users span i{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    font-style: normal;
+}
+.users em{
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.left{
+    width: 198px;
+   height: 800px;
+    background:#a13041;
+    border-right: 2px solid #5a121d;
+    float: left;
+}
+.left ul{
+    margin: 0 auto;
+}
+.orders{
+    width: 158px;
+    margin: 20px auto 20px auto;
+    cursor: pointer;
+}
+.orname{
+    width: 158px;
+    height: 40px;
+    line-height: 40px;
+    background: #ffffff;
+    margin: 0 auto;
+    box-shadow: 5px 5px #a54d4d;
+    font-size: 18px;
+    color: #ac2020;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+}
+.orgame{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/caipin.png") no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    vertical-align: middle;
+}
+.singles{
+    width:8px;
+    height: 12px;
+    display: inline-block;
+    background: url("../img/single.png") no-repeat;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sharlist{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/fenlei.png") no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.taocan{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../img/taocan.png") no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.singles.transfrom{
+    transform:rotate(90deg);
+}
+
+.orders dl{
+    width: 136px;
+    padding: 10px 10px;
+    border: 1px solid #ffffff;
+    margin-top: -4px;
+    display: none;
+}
+.orders dl dt{
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+.orders dl dt a{
+    display: inline-block;
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+.orders dl dt a:hover{
+    background: #ffffff;
+    color: #a13041;
+    text-decoration: none;
+}
+/*右边开始样式*/
+.right{
+    width: 969px;
+    height: 800px;
+    float: left;
+}
+.mapname{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #a13041;
+}
+.mapname span{
+    font-size: 14px;
+    color: #a13041;
+}
+.tabMargin{
+    margin-left: 30px;
+
+}
+
+/*分页*/
+.page{
+    padding-left: 30px;
+    float: right;
+}

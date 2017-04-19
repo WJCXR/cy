@@ -1,0 +1,79 @@
+.adds{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 16px;
+    color: #ac2020;
+    position: relative;
+    cursor: pointer;
+    text-decoration: underline;
+    right: -630px;
+}
+.adds:before{
+    width: 21px;
+    height: 23px;
+    background: url("../img/add.png") no-repeat;
+    content: '';
+    display: inline-block;
+    left: -26px;
+    top: 10px;
+    position: absolute;
+}
+.addPick{
+    margin-top: 15px;
+    display: none;
+}
+.tyTex{
+    position: relative;
+    line-height: 30px;
+    margin: 15px 0 15px 0;
+}
+.tyTex i{
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: 3px;
+}
+.mstDow{
+    position: absolute;
+    left: 300px;
+    top: 9px;
+    width: 10px;
+    height: 10px;
+    background: url("../img/bitian.png") no-repeat;
+}
+.tapack{
+    margin-left: 30px;
+}
+.tapack tr td{
+    text-align: center;
+}
+.searchs{
+    float: right;
+    width: 300px;
+    margin-bottom: -20px;
+    margin-right: 50px;
+}
+.btnClick{
+    margin-top: 5px;
+}
+.scount{
+    margin-left: 30px;
+}
+#sublits{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+#quert{
+    margin-top: 30px;
+}
+.deitor{
+    cursor: pointer;
+}
+.deletss{
+    cursor: pointer;
+}
+.addpage{
+    display: none;
+}
