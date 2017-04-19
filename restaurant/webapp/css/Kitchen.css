@@ -1,0 +1,45 @@
+.tabMargin tr td{
+    text-align: center;
+    position: relative;
+}
+.tabMargin tr td ul{
+    list-style: none;
+    margin: 0;
+}
+.tabMargin tr td ul li{
+    /*float: left;*/
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+.tabMargin tr td ol li{
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.tabMargin tr td ol li em{
+    margin-right: 20px;
+    font-style: normal;
+}
+.tabMargin tr td ol li .detalMint{
+    margin-left: 10px;
+    font-style: normal;
+}
+.begainTime{
+    margin-left: 10px;
+}
+.creatTime{
+    margin-left: 20px;
+    font-style: normal;
+}
+.chePrice{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}

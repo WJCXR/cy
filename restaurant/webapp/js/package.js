@@ -1,0 +1,27 @@
+/**
+ * Created by rena.chen on 2017/4/13.
+ */
+$(function(){
+    $('.deitor').click(function(){
+        $('.fenshat').hide();
+        $('.addPick').show();
+        $('.searchs').hide();
+        $('.adds').hide();
+    })
+    $('#sublits').click(function(){
+        $('.fenshat').show();
+        $('.addPick').hide();
+        $('.searchs').show();
+        $('.adds').show();
+    })
+    $('.adds').click(function(){
+        $('.fenshat').hide();
+        $('.addpage').show();
+        $('.searchs').hide();
+    })
+    $('#prevem').click(function(){
+        $('.fenshat').show();
+        $('.addpage').hide();
+        $('.searchs').show();
+    })
+})

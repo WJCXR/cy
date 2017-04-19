@@ -1,0 +1,10 @@
+$(document).ready(function(){
+            $('.deitor').click(function(){
+                $('.orderList').hide();
+                $('.filedtor').show();
+            })
+            $('#sublits').click(function(){
+                $('.orderList').show();
+                $('.filedtor').hide();
+            })
+})
